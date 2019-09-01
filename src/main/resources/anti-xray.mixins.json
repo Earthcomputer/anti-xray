@@ -5,6 +5,9 @@
   "mixins": [
   ],
   "server": [
+    "MixinChunkDataPacket",
+    "MixinChunkSection",
+    "MixinPalettedContainer"
   ],
   "injectors": {
     "defaultRequire": 1
