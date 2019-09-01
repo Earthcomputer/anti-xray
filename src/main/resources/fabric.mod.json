@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "anti-xray",
+  "version": "${version}",
+
+  "name": "Anti-Xray",
+  "description": "Makes it harder for Earthcomputer's brother and other people to xray",
+  "authors": [
+    "Earthcomputer"
+  ],
+  "contact": {
+    "homepage": "https://earthcomputer.net/",
+    "sources": "https://github.com/Earthcomputer/anti-xray"
+  },
+
+  "license": "MIT",
+
+  "environment": "server",
+
+  "mixins": [
+    "anti-xray.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
