@@ -52,7 +52,7 @@ public class ChunkMixer implements BlockView {
     }
 
     public void process() {
-        System.out.println("Processing chunk at (" + chunk.getPos().x + ", " + chunk.getPos().z + ")");
+        System.out.println("Processing chunk section at (" + chunk.getPos().x + ", " + chunkSection.getYOffset() / 16 + ", " + chunk.getPos().z + ")");
         computeDepth();
         replaceConcealedBlocks();
     }
